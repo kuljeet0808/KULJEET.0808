@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Himali ❤️</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #160b27, #351442, #651d52);
+    color: #fff5fb;
+    overflow-x: hidden;
+}
+#hearts {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+.heart {
+    position: absolute;
+    bottom: -50px;
+    color: #ff8bc2;
+    animation: floatUp linear infinite;
+    opacity: 0;
+}
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    15% { opacity: 0.65; }
+    85% { opacity: 0.5; }
+    100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+section {
+    min-height: 100vh;
+    padding: 80px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.content {
+    max-width: 760px;
+    width: 100%;
+    margin: auto;
+}
+.eyebrow {
+    color: #ffacd3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+h1 {
+    font-size: clamp(48px, 10vw, 85px);
+    color: #ffc5e1;
+    text-shadow: 0 0 35px #ff63ae70;
+    margin-bottom: 25px;
+}
+h2 {
+    font-size: clamp(30px, 6vw, 48px);
+    color: #ffc5e1;
+    margin-bottom: 28px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.9;
+    color: #f8e8f2;
+    margin-bottom: 20px;
+}
+.highlight {
+    color: #ffb5d9;
+    font-weight: bold;
+}
+button, .next {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 14px 28px;
+    border: 1px solid #ffb5d9;
+    border-radius: 40px;
+    background: linear-gradient(120deg, #e84c98, #9e4cce);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 0 25px #e84c9850;
+}
+button:hover, .next:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 35px #ff80c5a0;
+}
+.glass {
+    padding: 35px 28px;
+    border: 1px solid #ffb5d935;
+    background: #ffffff09;
+    backdrop-filter: blur(10px);
+    border-radius: 28px;
+    box-shadow: 0 10px 45px #00000025;
+}
+.divider {
+    color: #ff9dce;
+    font-size: 25px;
+    margin: 25px 0;
+    letter-spacing: 12px;
+}
+.compliments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+    margin-top: 35px;
+}
+.card {
+    background: #ffffff0b;
+    border: 1px solid #ffb5d930;
+    border-radius: 22px;
+    padding: 25px 20px;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-6px);
+    background: #ffffff15;
+}
+.card .emoji {
+    font-size: 35px;
+    display: block;
+    margin-bottom: 14px;
+}
+.card h3 {
+    color: #ffb5d9;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+.card p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.shayari {
+    font-size: 21px;
+    line-height: 2.1;
+    color: #ffe0ef;
+}
+.signature {
+    margin-top: 30px;
+    color: #ffacd3;
+    font-style: italic;
+}
+.small {
+    font-size: 13px;
+    color: #dcbdd2;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #e8c3da;
+    position: relative;
+    z-index: 1;
+}
+@media (max-width: 480px) {
+    section { padding: 65px 18px; }
+    p { font-size: 16px; }
+    .glass { padding: 28px 20px; }
+    .shayari { font-size: 18px; }
+}
+</style>
+</head>
+<body>
+<div id="hearts"></div>
+<!-- PAGE 1: WELCOME -->
+<section id="home">
+    <div class="content">
+        <div class="eyebrow">A little something for someone special</div>
+        <div style="font-size:55px; margin-bottom:20px;">🌙 💗</div>
+        <h1>Himali</h1>
+        <p>
+            Some people make the world more beautiful
+            simply by being in it.<br>
+            <span class="highlight">You're one of those people.</span>
+        </p>
+        <p>
+            I made this little corner of the internet just for you.
+            No expectations, no questions, no pressure.
+            Just a few words that I hope make your heart feel a little lighter.
+        </p>
+        <a href="#comfort" class="next">Open your little surprise 💌</a>
+        <div class="divider">♡ · ♡ · ♡</div>
+        <p class="small">Made with care, especially for you.</p>
+    </div>
+</section>
+<!-- PAGE 2: COMFORT -->
+<section id="comfort">
+    <div class="content glass">
+        <div class="eyebrow">For the days that feel heavy</div>
+        <h2>Hey, Himali... 🫂</h2>
+        <p>
+            I don't know exactly what you're going through right now,
+            and I won't pretend that I do.
+            But I want you to remember something.
+        </p>
+        <p>
+            <span class="highlight">You don't have to be okay all the time.</span>
+            You don't have to smile when your heart feels heavy.
+            You don't have to explain your silence or find the right
+            words for feelings you can't even understand yourself.
+        </p>
+        <p>
+            If today feels difficult, take it one moment at a time.
+            Drink some water, take a deep breath, rest if you need to,
+            and give yourself the kindness you so easily deserve.
+        </p>
+        <p>
+            And if you don't feel like talking, that's okay too.
+            <span class="highlight">Your silence doesn't make you any
+            less important, and your difficult days don't make you
+            any less wonderful.</span>
+        </p>
+        <div class="divider">♡</div>
+        <p>
+            You are allowed to have bad days, Himali.
+            They don't take away the beautiful person you are.
+        </p>
+        <a href="#beauty" class="next">One more thing I want you to know 🌷</a>
+    </div>
+</section>
+<!-- PAGE 3: COMPLIMENTS -->
+<section id="beauty">
+    <div class="content">
+        <div class="eyebrow">Things worth appreciating about you</div>
+        <h2>Do you know how special you are? 🌸</h2>
+        <p>
+            Beauty isn't just about what someone sees.
+            Sometimes it's about the warmth someone brings,
+            the kindness they show, and the little things that make
+            them unforgettable.
+        </p>
+        <div class="compliments">
+            <div class="card">
+                <span class="emoji">🌷</span>
+                <h3>Your Nature</h3>
+                <p>
+                    There is something beautiful about a person who
+                    can care deeply, feel sincerely, and remain
+                    genuine in a world that isn't always gentle.
+                </p>
+            </div>
+            <div class="card">
+                <span class="emoji">✨</span>
+                <h3>Your Beauty</h3>
+                <p>
+                    Your beauty deserves appreciation, but you are
+                    so much more than your appearance.
+                    The person you are inside makes that beauty
+                    even more meaningful.
+                </p>
+            </div>
+            <div class="card">
+                <span class="emoji">🦋</span>
+                <h3>Your Smile</h3>
+                <p>
+                    I hope life gives you more reasons to smile
+                    without forcing it. The happiest smiles are
+                    the ones that come naturally from the heart.
+                </p>
+            </div>
+            <div class="card">
+                <span class="emoji">💗</span>
+                <h3>Your Heart</h3>
+                <p>
+                    Never feel that you must give everyone your
+                    energy when yours is running low.
+                    Your feelings matter, too.
+                </p>
+            </div>
+            <div class="card">
+                <span class="emoji">🌙</span>
+                <h3>Your Quiet Side</h3>
+                <p>
+                    You don't always need to explain yourself.
+                    You deserve patience, understanding, and
+                    the freedom to be yourself.
+                </p>
+            </div>
+            <div class="card">
+                <span class="emoji">🌹</span>
+                <h3>Your Uniqueness</h3>
+                <p>
+                    There is no need to become someone else
+                    to be worthy of love, appreciation, or happiness.
+                    Being yourself is enough.
+                </p>
+            </div>
+        </div>
+        <div class="divider">♡ · ♡ · ♡</div>
+        <a href="#letter" class="next">Read something from my heart 💌</a>
+    </div>
+</section>
+<!-- PAGE 4: LOVE LETTER -->
+<section id="letter">
+    <div class="content glass">
+        <div class="eyebrow">A little letter for you</div>
+        <h2>If I could tell you one thing... 💌</h2>
+        <p>
+            Himali, I wish you could see yourself through kinder eyes.
+            Maybe then you would understand how much there is to
+            appreciate about you.
+        </p>
+        <p>
+            You don't need to look perfect, feel happy every day,
+            or have everything figured out to deserve beautiful things.
+            You deserve love on the days when you're glowing,
+            and kindness on the days when you feel like hiding
+            from the whole world.
+        </p>
+        <p>
+            I hope you meet people who listen when you speak,
+            understand when you go quiet, and never make you feel
+            guilty for having emotions.
+        </p>
+        <p>
+            And if I ever get the chance to make your days a little
+            brighter, I hope I can do it through small, genuine things:
+            a reason to smile, a little reassurance, or simply
+            respecting your space when you need it.
+        </p>
+        <p>
+            <span class="highlight">
+                You don't have to earn your worth, Himali.
+                You already matter.
+            </span>
+        </p>
+        <div class="divider">♡</div>
+        <p>
+            Now, there's one last thing I wrote for you...
+        </p>
+        <a href="#shayari" class="next">Your special shayari 🌹</a>
+    </div>
+</section>
+<!-- PAGE 5: SHAYARI -->
+<section id="shayari">
+    <div class="content glass">
+        <div style="font-size:45px; margin-bottom:20px;">🌹</div>
+        <div class="eyebrow">Kuch alfaaz sirf tumhare liye</div>
+        <h2>Himali, meri ek baat suno... ❤️</h2>
+        <div class="shayari">
+            Tumhari khoobsurati ko lafzon mein kaise bayaan karun,<br>
+            Tumhari muskurahat ka zikr karun ya tumhari aankhon ki baat karun...<br><br>
+            Tum sirf ek chehra nahi, ek khoobsurat ehsaas ho,<br>
+            Kisi udaas shaam mein sukoon ki meethi si aas ho...<br><br>
+            Tumhari khamoshi mein bhi ek kahaani nazar aati hai,<br>
+            Tumhari saadgi bhi dil ko kitni bhaati hai...<br><br>
+            Kaash tum khud ko meri nazron se ek baar dekh paati,<br>
+            Apni hi khoobsurati par tum bhi muskuraati...<br><br>
+            Har din tumhare chehre par muskaan khilti rahe,<br>
+            Tumhari zindagi khushiyon se sajti rahe...<br><br>
+            Aur jab kabhi duniya tumhe thakaane lage,<br>
+            Yaad rakhna, tumhari apni roshni kabhi kam nahi hoti,
+            chahe raat kitni bhi gehri ho jaaye. ❤️
+        </div>
+        <div class="divider">♡ · ♡ · ♡</div>
+        <p>
+            Aaj bas itna yaad rakhna, Himali...
+        </p>
+        <p class="highlight">
+            You deserve peace when your mind is tired,
+            warmth when your heart feels heavy,
+            and happiness that doesn't need to be forced.
+        </p>
+        <button onclick="showMessage()">
+            One last little message 💗
+        </button>
+        <div id="finalMessage" style="display:none; margin-top:30px;">
+            <p style="font-size:25px; color:#ffc5e1;">
+                You matter, Himali. Always remember that. ❤️
+            </p>
+            <p>
+                No need to reply, no need to explain anything.
+                Just take care of yourself, okay?
+                I hope tomorrow feels a little kinder to you. 🌙
+            </p>
+            <div style="font-size:35px;">🫶🏻 🌷 💖</div>
+        </div>
+        <div class="signature">
+            Made with love, just for Himali. ❤️
+        </div>
+        <p class="small" style="margin-top:20px;">
+            Take your time. Breathe. You are allowed to rest.
+        </p>
+    </div>
+</section>
+<footer>
+    A little reminder that you are appreciated. ♡
+</footer>
+<script>
+const heartContainer = document.getElementById("hearts");
+const heartSymbols = ["♡", "♥", "💗", "✨", "🌸"];
+for (let i = 0; i < 24; i++) {
+    const heart = document.createElement("span");
+    heart.className = "heart";
+    heart.textContent =
+        heartSymbols[Math.floor(Math.random() * heartSymbols.length)];
+    heart.style.left = Math.random() * 100 + "%";
+    heart.style.fontSize = (12 + Math.random() * 20) + "px";
+    heart.style.animationDuration = (9 + Math.random() * 12) + "s";
+    heart.style.animationDelay = (Math.random() * 12) + "s";
+    heartContainer.appendChild(heart);
+}
+function showMessage() {
+    const message = document.getElementById("finalMessage");
+    message.style.display = "block";
+    message.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest"
+    });
+}
+</script>
+</body>
+</html>
